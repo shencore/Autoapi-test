@@ -4,39 +4,39 @@
 
 ### 特别说明/Thanks ###
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
-* 本项目地址：https://github.com/wangziyingwen/Autoapi-test
+* 本项目地址：https://github.com/shencore/Autoapi-test
 
 --------------------------------------------------------------
 
 ### 步骤 ###
 * 登录/注册一个github账号，新建一个repository/项目
-  ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/新建仓库.png)
+  ![image](https://github.com/shencore/Autoapi-test/blob/master/images/新建仓库.png)
 
 * 下载本项目文件里的1.py , 根据原文教程修改1.py、1.txt ，上传并复制代码地址
 
-  ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/代码地址.png)
+  ![image](https://github.com/shencore/Autoapi-test/blob/master/images/代码地址.png)
   
 * 点击右上角fork本项目的代码到到你自己的仓库（相当于新建repository并复制本项目代码），
 
-  ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/fork.png)
+  ![image](https://github.com/shencore/Autoapi-test/blob/master/images/fork.png)
   
   然后修改文件 .github\workflows\autoapi.yml 中的代码地址为你自己的地址
   
-  ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/修改地方.png)
+  ![image](https://github.com/shencore/Autoapi-test/blob/master/images/修改地方.png)
   
 * 搞定，接下来就不用管了。我设定的每12小时自动运行一次，每次调用3轮（点击右上角星星/star也可以立马调用一次），你们自行斟酌修改（我也不知道活跃要调用多少、多久）：
 
    · 定时自动启动修改地方：（在autoapi.yml里，自行百度cron定时任务格式）
    
-   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/定时.png)
+   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/定时.png)
    
    · 每次轮数修改地方：（在1.py最后面）
    
-   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/次数.png)
+   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/次数.png)
    
    · 点击上面的Action就能看到每次的运行日志（都看下，api有没有调用到位，我就少了一个3，不管了）
    
-   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/日志.png)
+   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/日志.png)
 
 ------------------------------------------------------------
 
