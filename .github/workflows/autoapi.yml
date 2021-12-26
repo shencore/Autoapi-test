@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: 
+    - cron: 0 */12 * * *
   watch:
     types: [started]
    
@@ -30,7 +30,7 @@ jobs:
         pip install requests
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/1634222787/Autoapi-test.git /opt/Autoapi
+        git clone --depth=1 https://github.com/shencore/Autoapi-test.git /opt/Autoapi
     - name: Test Api 
       run: |
         cd /opt/Autoapi
