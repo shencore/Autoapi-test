@@ -3,20 +3,18 @@
 * 免费，不需要额外设备/服务器，部署完不用管啦。
 
 ### 特别说明/Thanks ###
-* 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
+* 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/ 已失效
+* 原项目地址：https://github.com/wangziyingwen/Autoapi-test 已失效，本项目系从https://github.com/1634222787/Autoapi-test 复制而来，感谢各位。本文部分配图就是从前面各位项目中复制而来，读者自行把里面的用户名换成我的或者你的就可以正常阅读了
 * 本项目地址：https://github.com/shencore/Autoapi-test
 
 --------------------------------------------------------------
 
 ### 步骤 ###
-* 登录/注册一个github账号，新建一个repository/项目
+* 登录/注册一个github账号，新建一个repository/项目 权限选择Public（我实测发现Private库会在后面运行时报错，如果有读者发现设置Private不会报错的办法，请给我提issue）
   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/新建仓库.png)
-
-* 下载本项目文件里的1.py , 根据原文教程修改1.py、1.txt ，上传并复制代码地址
-
-  ![image](https://github.com/shencore/Autoapi-test/blob/master/images/代码地址.png)
   
-* 点击右上角fork本项目的代码到到你自己的仓库（相当于新建repository并复制本项目代码），
+* 注册E5账号，这部分教程很多，不再赘述。
+* 点击右上角fork本项目的代码到到你自己的仓库（相当于新建repository并复制本项目代码）
 
   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/fork.png)
   
@@ -56,7 +54,7 @@
 
 （我们这里用的公共仓库，按理，你们可以设定无限循环调用，然后6小时启动一次，保证24小时全天候调用）
 
-### 最后 ###
+### 最后 ### 本段来自原作者
   教程很直白了，应该都会弄吧。有空更新一下怎样网页获取refresh_token（不再需要rclone？）！所以不用电脑应该可以都搞定！
 
   我是代码小白，我实在不会把两个项目合并啊，只能分开弄两个项目，一个原代码，一个action流程，请各位多多包涵。有没有大佬能修改一下代码呀，十分欢迎！
