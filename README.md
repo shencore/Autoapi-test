@@ -14,6 +14,7 @@
   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/新建仓库.png)
   
 * 注册E5账号，这部分教程很多，不再赘述。
+* 后续请参考https://www.daniao.org/9652.html github actions自动调用api – 实现Microsoft 365 E5玄学订阅 ，目前链接可用，我存了一个备份，如果链接失效时请给我提issue，我会在这里公开密码。
 * 点击右上角fork本项目的代码到到你自己的仓库（相当于新建repository并复制本项目代码）
 
   ![image](https://github.com/shencore/Autoapi-test/blob/master/images/fork.png)
